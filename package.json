@@ -1,0 +1,44 @@
+{
+  "name": "game-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint2": "eslint --ext .ts packages"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/groovox/groovox#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/groovox/groovox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/groovox/groovox/issues"
+  },
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.6.0",
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "@joshuaavalon/eslint-config-typescript": "^5.0.0",
+    "@types/node": "17.0.13",
+    "@types/react": "17.0.38",
+    "eslint": "^8.2.0",
+    "eslint-config-next": "12.0.9",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}
