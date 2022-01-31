@@ -9,9 +9,7 @@ const page: NextPage = () => (
   <Sidebar>
     <Container maxWidth="5xl">
       <div>
-        <Button leftIcon={<FiHome />} variant="ghost">
-          1sdfs
-        </Button>
+        <Button leftIcon={<FiHome />} variant="ghost"></Button>
       </div>
     </Container>
   </Sidebar>

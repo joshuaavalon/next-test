@@ -1,12 +1,11 @@
 import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
-import type { SystemStyleObject } from "@chakra-ui/theme-tools";
-const NavItem = {
-  parts: ["box", "icon", "label"]
-};
+
+import { NavButton } from "./nav-button";
+
 export const customTheme = extendTheme(
   {
     components: {
-      NavItem
+      NavButton
     }
   },
   withDefaultColorScheme({ colorScheme: "red" })
